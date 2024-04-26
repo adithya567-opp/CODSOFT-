@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+    
+    <meta charset="UTF-8"
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1645280ed5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href ="#"class="logo">Adithya</a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class ="header-text">
+            <p>Graphic designer</p>
+            <h1> Hi, I'm <span>Adithya K V</span><br>from Bangalore</h1>
+        </div>
+    </div>
+</div>
+<!----------about-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczMkIBGVPxKwoQzTeq5B-sActaN_LUJ2ATRrmdK4mUnVhooSXjZinWKnwmQE50RNeo0sGcb0icrQnDH8H5tWW6HbN0P_L22qYv-xk_nmrZFXxc1UdWrnJ0Zktb6VJUignen4xyfyOn1ktPBnrOy35rRqjg=w536-h670-s-no-gm?authuser=0">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, velit id pretium consectetur, mauris elit sodales sapien, vel rutrum ligula nisl nec dui. Proin efficitur vestibulum risus ut fermentum. Nulla nec velit nec sapien finibus dignissim. Integer a risus sed ligula aliquet viverra vel sit amet ipsum. Nulla facilisi. Duis sollicitudin, mi id tristique pellentesque, justo erat pulvinar nisi, a euismod libero elit vel mi. Donec viverra ex eget neque tincidunt, eget tincidunt purus tempus. Sed euismod, lacus at luctus tempus, risus quam accumsan leo, ac ultricies sapien quam sit amet nisl.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>API Testing</span><br>Application Programming Interfaces(API's)</li>
+                        <li><span>Android App development</span><br>Android Programming</li>
+                        <li><span>Designing websites</span><br>Web Development</li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024-current</span><br>Internship at CodSoft</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Current-BE(CSE-AI & ML)</span><br>Nagarjuna College of Engineering and Technology,Bangalore</li>
+                        <li><span> PUC(Intermediate)</span><br>Nagarjuna PU College,Bangalore</li>
+                        <li><span> School(1-10th)</span><br>Agragami Vidya Kendra,Bangalore</li>
+                    </ul>
+                </div>
+            </div>
+        </div>    
+    </div>
+</div>
+<!-----------Projects------------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>API Testing</h2>
+                <p>API testing involves verifying that the application programming interfaces (APIs) meet expectations for functionality, 
+                reliability, performance, and security.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Android App Development</h2>
+                <p>Android app development involves creating software applications specifically designed to run on devices powered by the 
+                Android operating system, utilizing programming languages like Java or Kotlin and various development tools.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web development</h2>
+                <p>Web development involves creating and maintaining websites and web applications using programming languages, frameworks, 
+                and other technologies to deliver content and functionality over the internet.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------my work-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPplCC3JnK4FaRJXqaX8OsRD2qtvuYbSZ4djFfIwxU9oxGYSG6JXQJde9GTe-93RxgfmfSWBJ2ekuEURdjgsBNEtnm_Ud-Fp6x5KZBkah8qk1y8N1KGTFw5d3sDev72I8ZS2WmDXrfMno70P4GfzP0Ipw=w682-h439-s-no-gm?authuser=0">
+                <div class="layer">
+                    <h3>Used Postman API Testing Tool</h3>
+                    <p>Postman simplifies API testing with its user-friendly interface and robust features, enhancing efficiency in API development and debugging.</p>
+                    <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczPpdCzNGVOpBHBmgPpsM8ScdQ5XeSsV7P9WVBjZzSL2WZlC7agu6E8Mhde_4fYXPyJIhvbEjsM5ZY5e6nmxSVVMj6BfYZtSWwMKFRRV08yY2uLgpX9P64trMFVCXepA_OoB4PZwJzEhnElQGawEma4w3A=w585-h586-s-no-gm?authuser=0">
+                <div class="layer">
+                    <h3>Dial Application Using Android Studio</h3>
+                    <p>Developed a dial application utilizing Android Studio for seamless communication and contact management.</p>
+                    <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://lh3.googleusercontent.com/pw/AP1GczN4tP4ZQ3pzpOqd2RpFrFITCiLSJwTJPZJcuabHAn0PU30aj6Di9VigPXo6-kSHIr9eR5oGnb6hVplSM3L_Fc_GYVAh1Lm4O8iSMgKF9MHblnGSHibp7DS87TcMtHD1ZXZtIrksIhSyxwxCFfUqPiAN5Q=w1366-h768-s-no-gm?authuser=0">
+                <div class="layer">
+                    <h3>Designed the websites using Visual Studio Code</h3>
+                    <p>Crafting dynamic websites with precision and efficiency using Visual Studio Code's intuitive interface and powerful development tools.</p>
+                    <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!--------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact:</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@adithya.com</p>
+                <p><i class="fa-solid fa-phone"></i>3456789201</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1Gxq3ZN32vS0sKPze3In6qW38R50BKkJf/view?usp=drivesdk" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Adithya<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzALRAYExkRwdJoGkS9dS6ZKQc05X-eGKo148EmL6xgEeIXet76EuXrsdf7aUWZck7o/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
